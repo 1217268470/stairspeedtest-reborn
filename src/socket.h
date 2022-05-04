@@ -27,7 +27,7 @@
 #define SA_INTERRUPT 0 //ignore this setting
 #endif
 #ifndef HAVE_MSG_NOSIGNAL
-#define MSG_NOSIGNAL 0 //ignore this setting
+//#define MSG_NOSIGNAL 0 //ignore this setting
 #endif
 #ifndef __hpux
 #include <sys/select.h>
